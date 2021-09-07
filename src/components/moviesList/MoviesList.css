@@ -1,0 +1,10 @@
+.movies-list {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    grid-row-gap: 10px;
+}
+
+.movies-list > div {
+    width: 25%;
+}

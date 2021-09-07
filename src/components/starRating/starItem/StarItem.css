@@ -1,0 +1,15 @@
+.star-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    height: 25px;
+    font-size: 25px;
+}
+
+.star-item_yellow {
+    color: yellow;
+    position: absolute;
+    overflow: hidden;
+    /*width: 10px;*/
+}

@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    height: 70px;
+}
+
+.header > a {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -6px;
+    color: #33cb95;
+    text-shadow: 0 2px 3px rgba(255,255,255,0.5);;
+}

@@ -1,0 +1,9 @@
+.genre-badge > div {
+    font-size: 15px;
+    /*margin-right: 5px;*/
+    cursor: pointer;
+}
+
+.badge_selected {
+    background: silver;
+}

@@ -1,0 +1,12 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination > div {
+    margin-right: 20px;
+}
+
+.pagination :last-child {
+    margin-right: 0;
+}
