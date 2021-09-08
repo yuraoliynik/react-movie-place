@@ -7,6 +7,7 @@ export function UserInfo() {
     return (
         <div className={'user-info'}>
             <img src={userImage} alt={'user-image'}/>
+            <p>User: Fan User</p>
         </div>
     );
 }

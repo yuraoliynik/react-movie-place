@@ -1,12 +1,27 @@
 .header {
-    display: flex;
-    height: 70px;
+    padding: 5px 200px;
 }
 
-.header > a {
+.header a {
     font-size: 40px;
     font-weight: bold;
-    letter-spacing: -6px;
-    color: #33cb95;
-    text-shadow: 0 2px 3px rgba(255,255,255,0.5);;
+    letter-spacing: -8px;
+    color: rgba(2, 48, 60, 0.8);
+    text-shadow: 3px 3px 3px rgba(2, 48, 60, 0.5);
 }
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 50px;
+}
+
+.header-block {
+    display: flex;
+    flex-flow: wrap;
+    grid-column-gap: 40px;
+    align-items: center;
+}
+
