@@ -26,27 +26,3 @@ p {
     font-size: 13px;
     text-align: left;
 }
-
-
-
-
-
-
-
-/*.app__theme_light * {*/
-/*    padding: 0;*/
-/*    margin: 0;*/
-/*    box-sizing: border-box;*/
-/*    font-family: 'Graphik', Helvetica, Arial, sans-serif;*/
-/*    color: rgba(2, 48, 60, 100);*/
-/*    font-weight: 300;*/
-/*}*/
-
-/*.app__theme_dark * {*/
-/*    padding: 0;*/
-/*    margin: 0;*/
-/*    box-sizing: border-box;*/
-/*    font-family: 'Graphik', Helvetica, Arial, sans-serif;*/
-/*    color: white;*/
-/*    font-weight: 300;*/
-/*}*/
