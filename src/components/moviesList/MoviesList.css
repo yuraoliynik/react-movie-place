@@ -2,9 +2,10 @@
     display: flex;
     flex-flow: wrap;
     width: 100%;
-    grid-row-gap: 10px;
+    grid-row-gap: 30px;
+    margin-bottom: 20px;
 }
 
 .movies-list > div {
-    width: 25%;
+    width: 20%;
 }

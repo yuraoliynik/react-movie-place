@@ -1,0 +1,41 @@
+button {
+    padding: 5px 0;
+    width: 150px;
+    font-size: 13px;
+    background: white;
+    border-radius: 5px;
+    transition: box-shadow 100ms, border 100ms;
+    cursor: pointer;
+}
+
+/**/
+.theme_light button {
+    color: rgba(2, 48, 60, 0.7);
+    background: white;
+    border: 1px solid rgba(2, 48, 60, 0.2);
+}
+.theme_light button:hover {
+    border: unset;
+    box-shadow:  0 0 2px rgba(2, 48, 60, 0.1), 0 0 6px rgba(2, 48, 60, 0.5);
+}
+.theme_light button:active {
+    border: 1px solid rgba(2, 48, 60, 0.2);
+    box-shadow:  0 0 2px rgba(2, 48, 60, 0.1), 0 0 4px rgba(2, 48, 60, 0.3);
+    transition: unset;
+}
+
+/**/
+.theme_dark button {
+    color: rgba(252, 252, 252, 0.5);
+    background: rgba(2, 48, 60, 0.1);
+    border: 1px solid rgba(8, 188, 232, 0.4);
+}
+.theme_dark button:hover {
+    border: unset;
+    box-shadow:  0 0 2px rgba(8, 188, 232, 0.6), 0 0 6px rgba(8, 188, 232, 0.6);
+}
+.theme_dark button:active {
+    border: 1px solid rgba(2, 48, 60, 0.2);
+    box-shadow:  0 0 2px rgba(8, 188, 232, 0.3), 0 0 4px rgba(8, 188, 232, 0.3);
+    transition: unset;
+}

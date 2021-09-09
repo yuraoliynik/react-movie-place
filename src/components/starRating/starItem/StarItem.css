@@ -3,12 +3,20 @@
     align-items: center;
     justify-content: flex-start;
     position: relative;
-    height: 25px;
-    font-size: 25px;
+    height: 20px;
+    font-size: 20px;
+}
+
+/**/
+.theme_light .star-item_black {
+    color: rgba(2, 48, 60, 0.8);
+}
+.theme_dark .star-item_black {
+    color: rgba(252, 252, 252, 0.3);
 }
 
 .star-item_yellow {
-    color: yellow;
+    color: #b24e12;
     position: absolute;
     overflow: hidden;
     /*width: 10px;*/

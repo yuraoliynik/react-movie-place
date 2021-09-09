@@ -4,7 +4,7 @@ import './StarItem.css';
 export function StarItem({value}) {
     return (
         <div className={'star-item'}>
-            <div>
+            <div className={'star-item_black'}>
                 ★
             </div>
 

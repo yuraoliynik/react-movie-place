@@ -1,0 +1,34 @@
+.movie-info {
+    padding: 95px 50px 50px 245px;
+    display: flex;
+}
+
+.movie-info > :first-child {
+    margin-right: 50px;
+}
+
+.p__property {
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.movie-info_description h2 {
+    margin-bottom: 20px;
+}
+
+.movie-info_description .p__description {
+    padding-left: 20px;
+}
+
+.movie-info_description > div {
+    margin-bottom: 20px;
+}
+
+.movie-info_description .star-item {
+    height: 30px;
+    font-size: 30px;
+}
+
+.movie-info_description :last-child {
+    margin-bottom: 0;
+}

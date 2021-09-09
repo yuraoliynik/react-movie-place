@@ -1,10 +1,12 @@
 import createPaginationItems from "./createPaginationItems";
 import checkStateBadge from "./checkStateBadge";
-import arrayRating10Star from "./arrayRating10Star";
+import createRating10Star from "./createRating10Star";
+import foundGenresArr from "./foundGenresArr";
 
 
 export {
     createPaginationItems,
     checkStateBadge,
-    arrayRating10Star
+    createRating10Star,
+    foundGenresArr
 };

@@ -13,7 +13,7 @@ import myStorage from "../../localStorage/myStorage";
 const initialState = {
     selectedGenres: myStorage.getProp('selectedGenres') || [],
     genres_URL: '',
-    currentTheme: myStorage.getProp('currentTheme') || 'light'
+    currentTheme: myStorage.getProp('currentTheme') || 'theme_light'
 }
 
 const settingReducer = (state = initialState, {type, payload}) => {
@@ -52,6 +52,7 @@ const settingReducer = (state = initialState, {type, payload}) => {
             return {...state, genres_URL: payload};
 
         case SET_CURRENT_THEME:
+            myStorage.setProp('currentTheme', payload);
             return {...state, currentTheme: payload};
 
         default:

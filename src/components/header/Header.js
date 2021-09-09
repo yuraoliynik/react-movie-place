@@ -6,7 +6,6 @@ import {ThemeButton} from "../themeButton/ThemeButton";
 import {UserInfo} from "../userInfo/UserInfo";
 
 import './Header.css';
-import '../../css/button.css';
 
 
 export function Header() {
@@ -18,10 +17,10 @@ export function Header() {
 
     return (
         <div className={'header'}>
-            <div className={'header-wrap block_style'}>
-                <Link to={'/'} onClick={handleOnClick}>Movie Place</Link>
+            <div className={'header_wrap block__style'}>
+                <Link to={'/'} onClick={handleOnClick}> Movie Place </Link>
 
-                <div className={'header-block'}>
+                <div className={'header_block'}>
                     <UserInfo/>
 
                     <ThemeButton/>

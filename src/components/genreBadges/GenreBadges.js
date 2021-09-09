@@ -45,14 +45,16 @@ function GenreBadges({history}) {
 
     return (
         <div className={'genre-badge'}>
-            {
-                genres.map(item => <Badge
-                    badgeItem={item}
-                    key={item.id}
-                    onClickBadge={onClickBadge}
-                    stateBadge={stateBadge}
-                />)
-            }
+            <div className={'genre-badge_wrap block__style'}>
+                {
+                    genres.map(item => <Badge
+                        badgeItem={item}
+                        key={item.id}
+                        onClickBadge={onClickBadge}
+                        stateBadge={stateBadge}
+                    />)
+                }
+            </div>
         </div>
     );
 }

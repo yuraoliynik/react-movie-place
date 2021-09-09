@@ -1,0 +1,4 @@
+.movie-genres {
+    display: flex;
+    flex-flow: column;
+}

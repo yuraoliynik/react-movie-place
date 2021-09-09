@@ -1,12 +1,17 @@
 .pagination {
     display: flex;
     justify-content: center;
+    padding: 20px 0;
 }
 
 .pagination > div {
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .pagination :last-child {
     margin-right: 0;
+}
+
+.selectedPaginationItem > a {
+    border-bottom: 2px solid rgba(2, 48, 60, 100);
 }

@@ -1,0 +1,47 @@
+.movies-list-card {
+    display: flex;
+    justify-content: center;
+    min-width: 200px;
+}
+
+.movies-list-card_wrap {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.movies-list-card_wrap .poster-preview {
+    margin-bottom: 10px;
+}
+
+.movies-list-card_wrap > a > p {
+    width: 200px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.movies-list-card_info {
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.movies-list-card_info > :first-child {
+    margin-bottom: 5px;
+}
+
+.movies-list-card_wrap:hover {
+    border-radius: 5px;
+}
+
+/**/
+.theme_light .movies-list-card_wrap:hover {
+    opacity: 0.9;
+    box-shadow: 3px 3px 10px rgba(2, 48, 60, 0.9);
+}
+.theme_dark .movies-list-card_wrap:hover {
+    opacity: 0.8;
+    background: rgba(2, 48, 60, 0.9);
+    box-shadow: 3px 3px 10px rgba(8, 188, 232, 0.4);
+}

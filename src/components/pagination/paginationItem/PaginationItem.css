@@ -1,0 +1,27 @@
+.pagination-item > a {
+    font-size: 14px;
+}
+
+/**/
+.theme_light .pagination-item > a {
+    color: rgba(2, 48, 60, 100);
+}
+.theme_dark .pagination-item > a {
+    color: rgba(252, 252, 252, 0.8);
+}
+
+/**/
+.theme_light .pagination-item {
+    color: rgba(2, 48, 60, 100);
+}
+.theme_dark .pagination-item {
+    color: rgba(252, 252, 252, 0.8);
+}
+
+/**/
+.theme_light .selectedPaginationItem > a {
+    border-bottom: 1px solid rgba(2, 48, 60, 100);
+}
+.theme_dark .selectedPaginationItem > a {
+    border-bottom: 1px solid rgba(252, 252, 252, 0.8);
+}

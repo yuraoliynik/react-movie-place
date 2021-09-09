@@ -14,11 +14,21 @@ export function ThemeButton() {
         }
     };
 
+    const buttonName = () => {
+        if (currentTheme === 'theme_light') {
+            document.body.style = {background: '#FCFCFC'};
+        } else {
+            document.body.style.background = 'rgba(2, 48, 60, 0.8)';
+        }
+
+        return currentTheme === 'theme_light' ? 'Use dark theme' : 'Use light theme';
+    };
+
     return (
         <div>
             <button onClick={handleOnClick}>
                 {
-                    currentTheme === 'theme_light' ? 'Use dark theme' : 'Use light theme'
+                    buttonName()
                 }
             </button>
         </div>

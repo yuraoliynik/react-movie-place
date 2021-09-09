@@ -1,9 +1,24 @@
-.genre-badge > div {
-    font-size: 15px;
-    /*margin-right: 5px;*/
-    cursor: pointer;
+.genre-badge {
+    padding-left: 40px;
+    position: fixed;
+    top: 90px;
+    z-index: 1;
 }
 
-.badge_selected {
-    background: silver;
+.genre-badge_wrap {
+    display: flex;
+    flex-flow: column;
+    background: rgba(2, 48, 60, 0.1);
+}
+
+.genre-badge_wrap > button {
+    margin-bottom: 10px;
+}
+
+/**/
+.theme_light .badge_selected {
+    background: rgba(2, 48, 60, 0.02);
+}
+.theme_dark .badge_selected {
+    background: rgba(8, 188, 232, 0.2);
 }

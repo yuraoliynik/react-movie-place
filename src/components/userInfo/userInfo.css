@@ -1,7 +1,7 @@
 .user-info {
     display: flex;
     flex-flow: wrap;
-    grid-column-gap: 10px;
+    grid-column-gap: 15px;
     align-items: center;
     padding: 5px 10px;
 }
@@ -9,6 +9,4 @@
 .user-info > img {
     width: 40px;
     border-radius: 50%;
-    box-shadow: 3px 3px 10px rgba(2, 48, 60, 0.3);
 }
-

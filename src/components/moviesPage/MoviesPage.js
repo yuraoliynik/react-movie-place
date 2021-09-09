@@ -16,6 +16,7 @@ export function MoviesPage(props) {
     const dispatch = useDispatch();
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         dispatch(loadMoviesPage(pageId, genres));
     }, [genres, pageId]);
 

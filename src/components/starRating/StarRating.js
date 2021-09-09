@@ -1,12 +1,12 @@
 import {StarItem} from "./starItem/StarItem";
 
-import {arrayRating10Star} from "../../tools";
+import {createRating10Star} from "../../tools";
 
 import './StarRating.css';
 
 
 export function StarRating({rating}) {
-    const ratingArray = arrayRating10Star(rating);
+    const ratingArray = createRating10Star(rating);
 
     return (
         <div className={'star-rating'}>

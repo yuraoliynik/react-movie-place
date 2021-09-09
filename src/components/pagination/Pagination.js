@@ -1,14 +1,19 @@
-import {createPaginationItems} from '../../tools';
+import {useSelector} from "react-redux";
+
 import {PaginationItem} from "./paginationItem/PaginationItem";
+import {createPaginationItems} from '../../tools';
 
 import './Pagination.css';
-import {useSelector} from "react-redux";
 
 
 export function Pagination({page, totalPages}) {
     const url = useSelector(({settingReducer: {genres_URL}}) => genres_URL);
 
     const paginationItems = createPaginationItems(page, totalPages, 12);
+
+    const selectedPaginationItem = (paginationItem) => {
+        return page === paginationItem ? 'selectedPaginationItem' : '';
+    };
 
     return (
         <div className={'pagination'}>
@@ -17,6 +22,7 @@ export function Pagination({page, totalPages}) {
                     paginationItem={item}
                     key={index}
                     url={url}
+                    selectedPaginationItem={selectedPaginationItem}
                 />)
             }
         </div>
